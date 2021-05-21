@@ -1,0 +1,26 @@
+{
+  "name": "m152_ap18b_portfolio_wettstein",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valentin-2002/M152_AP18b_PortfolioWebpage_Wettstein.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Valentin-2002/M152_AP18b_PortfolioWebpage_Wettstein/issues"
+  },
+  "homepage": "https://github.com/Valentin-2002/M152_AP18b_PortfolioWebpage_Wettstein#readme",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.7",
+    "nodemon": "^2.0.7"
+  }
+}

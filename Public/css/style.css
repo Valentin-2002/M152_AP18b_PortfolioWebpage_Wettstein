@@ -1,0 +1,40 @@
+/* @import url(“style2.css”); */
+
+@font-face {
+    font-family: 'Roboto';
+    src:    url('../fonts/roboto/Roboto-Black.ttf'), 
+            url('../fonts/roboto/Roboto-BlackItalic.ttf'), 
+            url('../fonts/roboto/Roboto-Bold.ttf'), 
+            url('../fonts/roboto/Roboto-BoldItalic.ttf'), 
+            url('../fonts/roboto/Roboto-Italic.ttf'), 
+            url('../fonts/roboto/Roboto-Light.ttf'), 
+            url('../fonts/roboto/Roboto-LightItalic.ttf'), 
+            url('../fonts/roboto/Roboto-Medium.ttf'), 
+            url('../fonts/roboto/Roboto-MediumItalic.ttf'), 
+            url('../fonts/roboto/Roboto-Regular.ttf'), 
+            url('../fonts/roboto/Roboto-Thin.ttf'), 
+            url('../fonts/roboto/Roboto-ThinItalic.ttf') 
+            format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background: burlywood;
+    box-sizing: border-box;
+
+    font-family: Roboto;
+    font-size: 16px;
+
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    @import url('styleMobile.css');
+}
+
+@media only screen and (min-width: 768px) {
+    @import url('styleDesktop.css');
+}
+
